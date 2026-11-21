@@ -8,6 +8,21 @@ This app might mark a correct answer as wrong, break your wk streak, eat your ki
 If any of the above happens, do make sure to report a issue on github :)
 
 
+## Install
+
+```
+cargo install --git https://github.com/Supernovatux/wkcli
+```
+
+or from a local checkout:
+
+```
+cargo install --path .
+```
+
+On Linux, audio playback needs the ALSA development headers
+(`libasound2-dev` on Debian/Ubuntu, `alsa-lib-devel` on Fedora, `alsa-lib` on Arch).
+
 ## Usage
 
 ```

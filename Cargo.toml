@@ -2,6 +2,12 @@
 name = "wkcli"
 version = "0.1.0"
 edition = "2024"
+description = "Unofficial terminal client for doing WaniKani reviews"
+license = "MIT"
+repository = "https://github.com/Supernovatux/wkcli"
+readme = "readme.md"
+keywords = ["wanikani", "japanese", "kanji", "srs", "tui"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.104"
